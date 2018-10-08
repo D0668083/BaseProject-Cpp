@@ -4,9 +4,15 @@
 void testGetTriangleType() {
     assert(getTriangleType(3, 4, 5) == 0);
 }
+void testmultiNumber(){
+    assert((multiNumber(5 , 2)==10));
+
+}
+
 
 int main() {
     assert(addNumber(5, 2) == 7);
+    testmultiNumber();
     testGetTriangleType();
     return 0;
 }
